@@ -1113,7 +1113,7 @@ export default {
           })
           let guide = new Blob(
             [
-              '<html><head><meta http-equiv="refresh" content="0; url=https://enbizcard.vercel.app/hosting-guide" /></head></html>',
+              '<html><head><meta http-equiv="refresh" content="0; url=/hosting-guide" /></head></html>',
             ],
             {
               type: 'text/html',
