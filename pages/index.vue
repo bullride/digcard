@@ -1,5 +1,56 @@
 <template>
-    <div class="md:grid md:grid-cols-2">
+  <div
+    ref="container"
+    class="container relative bg-gray-900 mx-auto text-gray-100"
+    style="max-width: 960px"
+  >
+    <Modal
+      v-if="content"
+      @click.native.self="clearContent"
+      :content="content"
+      :clearContent="clearContent"
+    />
+    <transition name="drop">
+      <div
+        v-if="inView || showPreview"
+        class="fixed top-0 w-full z-30 bg-gray-900 justify-between items-center flex md:hidden"
+      >
+        <div
+          class="logo w-16 m-4"
+          v-html="require(`~/assets/icons/logo.svg?include`)"
+        ></div>
+        <button
+          class="p-3 mx-4 font-extrabold rounded tracking-wide focus:outline-none select-none"
+          :class="showPreview ? 'bg-gray-700' : 'bg-green-600'"
+          @click="!opening && togglePreview()"
+        >
+          {{ showPreview ? 'Close preview' : 'Open preview' }}
+        </button>
+      </div>
+    </transition>
+    <transition name="fade">
+      <Preview
+        v-show="showPreview"
+        class="fixed top-20 w-full bottom-0 z-20 border-none rounded-b-none"
+        ref="html"
+        :username="username"
+        :genInfo="genInfo"
+        :images="images"
+        :featured="featured"
+        :colors="colors"
+        :primaryActions="primaryActions"
+        :secondaryActions="secondaryActions"
+        :PreviewMode="PreviewMode"
+        :downloadVcard="downloadVcard"
+        :footerCredit="footerCredit"
+        :showAlert="showAlert"
+        :hasLightBG="hasLightBG"
+        :downloadKey="downloadKey"
+        :pubKeyIsValid="pubKeyIsValid"
+      />
+    </transition>
+
+<div class="md:grid md:grid-cols-2">
       <div class="px-4 mt-32">
         <div ref="create" id="step-1" class="pt-8">
           <h2 class="font-extrabold text-2xl">Image attachments</h2>
