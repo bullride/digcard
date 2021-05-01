@@ -158,6 +158,9 @@
                 <p class="jobtitle text">
                   {{ genInfo.title }}
                 </p>
+                <p class="jobtitle text">
+                  {{ genInfo.biz }}
+                </p>                
               </div>
             </div>
             <p class="desc text" v-if="genInfo.desc">
@@ -310,13 +313,13 @@
             :style="{ backgroundColor: `${colors.mainBg.color}` }"
             class="text"
           >
-            Created with
+            Get your Digital Business Card from 
             <a
               class="text"
-              href="https://enbizcard.vercel.app/"
+              href="https://news.gumcars.co.za/"
               target="_blank"
               rel="noopener noreferrer"
-              >EnBizCard</a
+              >Local SA</a
             >
           </footer>
         </body>
