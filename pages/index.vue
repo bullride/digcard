@@ -621,7 +621,6 @@ export default {
             label: 'Facebook page URL',
           },
           {
-          {
             name: 'twitter',
             placeholder: 'https://twitter.com/username',
             value: null,
