@@ -614,20 +614,6 @@ export default {
         ],
         secondaryActions: [
           {
-            name: 'instagram',
-            placeholder: 'https://instagram.com/username',
-            value: null,
-            color: '#405de6',
-            label: 'Instagram profile URL',
-          },
-          {
-            name: 'pixelfed',
-            placeholder: 'https://pixelfed.social/username',
-            value: null,
-            color: '#8d59a8',
-            label: 'Pixelfed profile URL',
-          },
-          {
             name: 'facebook',
             placeholder: 'https://facebook.com/pagename',
             value: null,
@@ -635,19 +621,6 @@ export default {
             label: 'Facebook page URL',
           },
           {
-            name: 'diaspora',
-            placeholder: 'https://diaspora.social/username',
-            value: null,
-            color: '#000000',
-            label: 'Diaspora profile URL',
-          },
-          {
-            name: 'friendica',
-            placeholder: 'https://friendica.social/username',
-            value: null,
-            color: '#1d6e9a',
-            label: 'Friendica profile URL',
-          },
           {
             name: 'twitter',
             placeholder: 'https://twitter.com/username',
@@ -656,11 +629,11 @@ export default {
             label: 'Twitter profile URL',
           },
           {
-            name: 'mastodon',
-            placeholder: 'https://mastodon.social/@username',
+            name: 'instagram',
+            placeholder: 'https://instagram.com/username',
             value: null,
-            color: '#2b90d9',
-            label: 'Mastodon profile URL',
+            color: '#e4405f',
+            label: 'Instagram profile URL',
           },
           {
             name: 'linkedin',
@@ -690,12 +663,25 @@ export default {
             color: '#ffffff',
             label: 'Peertube channel URL',
           },
-          {
-            name: 'pinterest',
-            placeholder: 'https://pinterest.com/username',
+            name: 'diaspora',
+            placeholder: 'https://diaspora.social/username',
             value: null,
-            color: '#bd081c',
-            label: 'Pinterest profile URL',
+            color: '#000000',
+            label: 'Diaspora profile URL',
+          },
+          {
+            name: 'friendica',
+            placeholder: 'https://friendica.social/username',
+            value: null,
+            color: '#1d6e9a',
+            label: 'Friendica profile URL',
+          },
+          {
+            name: 'mastodon',
+            placeholder: 'https://mastodon.social/@username',
+            value: null,
+            color: '#2b90d9',
+            label: 'Mastodon profile URL',
           },
           {
             name: 'behance',
