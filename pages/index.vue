@@ -662,6 +662,7 @@ export default {
             color: '#ffffff',
             label: 'Peertube channel URL',
           },
+          {
             name: 'diaspora',
             placeholder: 'https://diaspora.social/username',
             value: null,
