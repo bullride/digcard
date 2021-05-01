@@ -17,10 +17,10 @@
           <meta v-if="!PreviewMode" name="robots" content="noindex, nofollow" />
           <meta
             name="author"
-            content="EnBizCard - An Open-Source Digital Business Card Generator"
+            content="Local SA - "
           />
-          <meta name="url" content="https://enbizcard.vercel.app/" />
-          <meta name="designer" content="Vishnu Raghav" />
+          <meta name="url" content="https://news.gumcars.co.za/" />
+          <meta name="designer" content="Local SA" />
           <meta
             property="og:title"
             :content="`${genInfo.name}'s Digital Business Card`"
