@@ -883,7 +883,7 @@ export default {
         EMAIL: email,
         URL: website,
         KEY: this.genInfo.fp,
-        UID: `enbizcard-${randomNumber}`,
+        UID: `localsa-${randomNumber}`,
       }
     },
   },
