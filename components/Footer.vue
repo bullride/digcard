@@ -5,12 +5,8 @@
         class="logo w-12"
         v-html="require(`~/assets/icons/logo.svg?include`)"
       ></div>
-      <p class="font-extrabold leading-tight">
-        Digital Business Card
-        <br />
-        Generator
-      </p>
       <p class="font-extrabold text-xl mt-2 leading-tight">Local SA</p>
+      <p class="font-extrabold leading-tight">Digital Business Card Generator</p>
     </div>
     <p class="mt-6 text-center text-gray-400">
       Save our Trees - Go Digital
