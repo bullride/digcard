@@ -74,15 +74,18 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 6rem 3rem;
+  padding: 0;
+  height: 250px;
   box-sizing: border-box;
 }
 #logo {
-  max-height: 6rem;
+  width: 100%;
+  max-height: 250px;
   text-align: center;
   color: gray;
   pointer-events: none;
   user-select: none;
+  object-fit: cover !important;
 }
 #topActions {
   flex-direction: row-reverse;
