@@ -422,7 +422,7 @@
                     class="pl-4 h-12 w-full bg-black rounded text-gray-500"
                     aria-label="vCard URL"
                     disabled
-                    :value="'yoursite/vcard/' + username + '/'"
+                    :value="'localsa/vcard/' + username + '/'"
                     tabindex="-1"
                   />
                   <div
@@ -563,16 +563,23 @@ export default {
           {
             name: 'call',
             href: 'tel:',
-            placeholder: '+91 XXXXX XXXXX',
+            placeholder: '+27 XX XXX XXXX',
             value: null,
-            label: 'Phone number',
+            label: 'Mobile number',
           },
           {
             name: 'call',
             href: 'tel:',
-            placeholder: '+91 XXXXX XXXXX',
+            placeholder: '+27 XX XXX XXXX',
             value: null,
-            label: 'Phone number',
+            label: 'Office number',
+          },
+          {
+            name: 'call',
+            href: 'tel:',
+            placeholder: '+27 XX XXX XXXX',
+            value: null,
+            label: 'Home number',
           },
           {
             name: 'whatsapp',
@@ -582,20 +589,20 @@ export default {
           },
           {
             name: 'telegram',
-            placeholder: 'https://t.me/username',
+            placeholder: 'https://t.me/nari_live',
             value: null,
             label: 'Telegram profile URL',
           },
           {
             name: 'email',
             href: 'mailto:',
-            placeholder: 'info@example.com',
+            placeholder: 'info@localsa.co.za',
             value: null,
             label: 'Email address',
           },
           {
             name: 'website',
-            placeholder: 'https://example.com',
+            placeholder: 'https://localsa.co.za',
             value: null,
             label: 'Website URL',
           },
@@ -656,39 +663,11 @@ export default {
             label: 'Vimeo channel URL',
           },
           {
-            name: 'peertube',
-            placeholder: 'https://peertube.video/channelname',
+            name: 'soundcloud',
+            placeholder: 'https://soundcloud.com/username',
             value: null,
-            color: '#ffffff',
-            label: 'Peertube channel URL',
-          },
-          {
-            name: 'diaspora',
-            placeholder: 'https://diaspora.social/username',
-            value: null,
-            color: '#000000',
-            label: 'Diaspora profile URL',
-          },
-          {
-            name: 'friendica',
-            placeholder: 'https://friendica.social/username',
-            value: null,
-            color: '#1d6e9a',
-            label: 'Friendica profile URL',
-          },
-          {
-            name: 'mastodon',
-            placeholder: 'https://mastodon.social/@username',
-            value: null,
-            color: '#2b90d9',
-            label: 'Mastodon profile URL',
-          },
-          {
-            name: 'behance',
-            placeholder: 'https://behance.net/username',
-            value: null,
-            color: '#1769ff',
-            label: 'Behance profile URL',
+            color: '#ff3300',
+            label: 'Soundcloud profile URL',
           },
           {
             name: 'dribbble',
@@ -703,13 +682,6 @@ export default {
             value: null,
             color: '#ff5700',
             label: 'Reddit profile URL',
-          },
-          {
-            name: 'vk',
-            placeholder: 'https://vk.com/pagename',
-            value: null,
-            color: '#4a76a8',
-            label: 'VK page URL',
           },
           {
             name: 'snapchat',
@@ -733,13 +705,6 @@ export default {
             label: 'Quora profile URL',
           },
           {
-            name: 'medium',
-            placeholder: 'https://medium.com/publication_name',
-            value: null,
-            color: '#000000',
-            label: 'Medium publication',
-          },
-          {
             name: 'discord',
             placeholder: 'https://discord.com/username',
             value: null,
@@ -761,20 +726,6 @@ export default {
             label: 'Spotify profile URL',
           },
           {
-            name: 'soundcloud',
-            placeholder: 'https://soundcloud.com/username',
-            value: null,
-            color: '#ff3300',
-            label: 'Soundcloud profile URL',
-          },
-          {
-            name: 'funkwhale',
-            placeholder: 'https://funkwhale.audio/username',
-            value: null,
-            color: '#ffffff',
-            label: 'Funkwhale profile URL',
-          },
-          {
             name: 'github',
             placeholder: 'https://github.com/username',
             value: null,
@@ -789,20 +740,6 @@ export default {
             label: 'Gitlab profile URL',
           },
           {
-            name: 'codeberg',
-            placeholder: 'https://codeberg.org/username',
-            value: null,
-            color: '#2185d0',
-            label: 'Codeberg profile URL',
-          },
-          {
-            name: 'yelp',
-            placeholder: 'https://yelp.com/bizname',
-            value: null,
-            color: '#fff',
-            label: 'Yelp page URL',
-          },
-          {
             name: 'paypal',
             placeholder: 'https://paypal.me/username',
             value: null,
@@ -815,13 +752,6 @@ export default {
             value: null,
             color: '#FF424D',
             label: 'Patreon URL',
-          },
-          {
-            name: 'open-collective',
-            placeholder: 'https://opencollective.com/username',
-            value: null,
-            color: '#fff',
-            label: 'Open Collective URL',
           },
         ],
       },
