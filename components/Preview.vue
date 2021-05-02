@@ -110,7 +110,7 @@
               id="logo"
               v-if="images.logo.url"
               :src="PreviewMode ? images.logo.url : `./logo.${images.logo.ext}`"
-              alt="Logo" class="headlogoo" style="object-fit: cover !important;width: 100%;max-height: 250px;"
+              alt="Logo" class="headlogoo" style="object-fit: cover !important;width: 100%;max-height: 250px;padding:0;"
             />
             <div
               id="topActions"
