@@ -148,7 +148,7 @@
                 :src="
                   PreviewMode ? images.photo.url : `./photo.${images.photo.ext}`
                 "
-                alt="Photo" class="roundlogo" style="z-index:1030;"
+                alt="Photo" class="roundlogo" style="z-index:1030;border: 3px solid #eee;"
               />
               <div id="info">
                 <p class="name text">
