@@ -105,7 +105,7 @@
               </div>
             </div>
           </div>
--          <header style="padding:0;height:250px;">
+          <header style="padding:0;height:250px;">
             <img
               id="logo"
               v-if="images.logo.url"
