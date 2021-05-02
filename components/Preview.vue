@@ -157,7 +157,7 @@
                 <p class="jobtitle text">
                   {{ genInfo.title }}
                 </p>
-                <p class="jobtitle text">
+                <p class="bizname text">
                   {{ genInfo.biz }}
                 </p>                
               </div>
