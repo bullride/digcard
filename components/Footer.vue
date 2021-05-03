@@ -2,7 +2,7 @@
   <footer class="mt-32 mx-4 flex flex-col">
     <div class="flex flex-col justify-center items-center">
       <div
-        class="logo w-12"
+        class="logo w-12" style="width: 3.5rem;"
         v-html="require(`~/assets/icons/logo.svg?include`)"
       ></div>
       <p class="font-extrabold text-xl mt-2 leading-tight">Local SA</p>
