@@ -40,7 +40,7 @@ export default {
         hid: 'msapplication-TileColor',
         name: 'msapplication-TileColor',
         property: 'msapplication-TileColor',
-        content: '#111827',
+        content: '#222',
       },
       {
         hid: 'msapplication-TileImage',
@@ -72,7 +72,7 @@ export default {
       },
       {
         rel: 'mask-icon',
-        color: '#111827',
+        color: '#222',
         href: '/safari-pinned-tab.svg',
       },
     ],
@@ -83,8 +83,8 @@ export default {
     short_name: 'Local SA',
     start_url: '/',
     display: 'standalone',
-    theme_color: '#111827',
-    background_color: '#111827',
+    theme_color: '#222',
+    background_color: '#222',
     display: 'standalone',
     icons: [
       {
