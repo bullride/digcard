@@ -97,6 +97,7 @@ header {
   box-sizing: border-box;
 }
 #logo {
+  min-height: 250px;
   max-height: 250px;
   width: 100%;
   text-align: center;
