@@ -8,7 +8,7 @@ body {
 }
 #modal {
   position: absolute;
-  z-index: 1;
+  z-index: 1040;
   width: 100%;
   bottom: 0;
   -webkit-transition: top 0.2s ease-out, opacity 0.1s ease-out;
