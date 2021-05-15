@@ -117,44 +117,6 @@
               rows="4"
             ></textarea>
           </div>
-          <div class="stepC relative mt-6">
-            <label for="pgp-public-key" class="flex justify-between ml-4"
-              >Public key<span
-                v-if="genInfo.key"
-                class="mr-4"
-                :class="pubKeyIsValid ? 'text-green-600' : 'text-orange-600'"
-                >{{ pubKeyIsValid ? '' : 'Invalid schema' }}</span
-              >
-            </label>
-            <textarea
-              id="pgp-public-key"
-              v-model="genInfo.key"
-              class="block mt-2 px-4 py-3 w-full bg-black placeholder-gray-600 rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 resize-none hover:border-gray-600"
-              rows="4"
-              spellcheck="false"
-              placeholder="Paste PGP PUBLIC KEY BLOCK here"
-            ></textarea>
-          </div>
-          <div class="stepC relative mt-6">
-            <label for="pgp-fingerprint" class="flex justify-between ml-4"
-              >Public key fingerprint<span
-                v-if="genInfo.fp"
-                class="mr-4"
-                :class="
-                  fingerprintIsValid ? 'text-green-600' : 'text-orange-600'
-                "
-                >{{ fingerprintIsValid ? '' : 'Invalid fingerprint' }}</span
-              >
-            </label>
-            <input
-              id="pgp-fingerprint"
-              spellcheck="false"
-              type="text"
-              v-model="genInfo.fp"
-              class="mt-2 px-4 w-full h-12 bg-black placeholder-gray-600 rounded border border-transparent transition-colors duration-200 focus:outline-none focus:border-gray-600 hover:border-gray-600"
-              placeholder="Paste 40 character fingerprint here"
-            />
-          </div>
         </div>
         <div id="step-3" class="mt-16">
           <h2 class="font-extrabold text-2xl">Primary actions</h2>
