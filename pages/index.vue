@@ -150,9 +150,8 @@
               @click="addAction('primaryActions', index)"
               class="p-3 flex-shrink-0 rounded-full hover:scale-125 focus:scale-125 transform transition-transform duration-200 focus:outline-none"
               :style="{
-                button.p-3.flex-shrink-0.rounded-full {
-                  border-radius: 25% !important;
-                }backgroundColor: `${colors.buttonBg.color}`,
+                border-radius: 25% !important;
+                backgroundColor: `${colors.buttonBg.color}`,
               }"
               :title="
                 action.name.substr(0, 1).toUpperCase() + action.name.slice(1)
