@@ -150,7 +150,6 @@
               @click="addAction('primaryActions', index)"
               class="p-3 flex-shrink-0 rounded-full hover:scale-125 focus:scale-125 transform transition-transform duration-200 focus:outline-none"
               :style="{
-                border-radius: 25% !important;
                 backgroundColor: `${colors.buttonBg.color}`,
               }"
               :title="
