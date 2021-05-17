@@ -419,6 +419,11 @@
     <Vcard ref="vCard" :vCard="vCard" />
     <Footer />
   </div>
+<style>
+button.p-3.flex-shrink-0.rounded-full {
+    border-radius: 25%;
+}
+</style>
 </template>
 
 <script>
