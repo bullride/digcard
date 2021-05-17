@@ -157,7 +157,7 @@
                 <p class="jobtitle text">
                   {{ genInfo.title }}
                 </p>
-                <p class="bizname text">
+                <p class="bizname text" style="text-align: center;line-height: 1.5;color: #000 !important;font-size: xx-large;">
                   {{ genInfo.biz }}
                 </p>                
               </div>
