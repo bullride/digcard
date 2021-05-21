@@ -28,4 +28,71 @@ export default {}
 </script>
 
 <style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffffde;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+div#step-1, div#step-2, div#step-3, div#step-4, div#step-5, div#step-6, div#step-7, div#step-8, div#step-9, div#step-10, div#downloadSection, div#donate {
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px
+}
+
+h2.font-extrabold.text-2xl {
+    color: black !important;
+    text-transform: capitalize;
+}
+
+.flex.mt-6.mb-6 {
+    background-color: #111827;
+}
+
+.ml-4 {
+    margin-left: 0;
+    color: #000;
+    font-weight: 600;
+}
+
+.px-4.mt-32 {
+    background-color: #ffffff;
+}
+
+button.p-3.flex-shrink-0.rounded-full.hover\:scale-125.focus\:scale-125.transform.transition-transform.duration-200.focus\:outline-none {
+    border-radius: 25%;
+}
+
+.w-12 {
+    width: 7rem;
+}
+
+.object-contain {
+    object-fit: cover;
+}
+
+p {
+    color: black !important;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 </style>
