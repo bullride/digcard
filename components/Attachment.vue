@@ -42,7 +42,7 @@
           v-html="require(`~/assets/icons/add.svg?include`)"
         ></div>
       </button>
-      <p v-if="!imageAttached" class="ml-3 leading-none">
+      <p v-if="!imageAttached" class="ml-3 mr-3 leading-none">
         {{ label
         }}<span class="text-sm text-gray-400"><br />{{ description }}</span>
       </p>
