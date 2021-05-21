@@ -95,4 +95,8 @@ p {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.leading-none {
+    line-height: 1;
+    color: #eee !important;
+}
 </style>
