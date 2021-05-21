@@ -99,4 +99,8 @@ p {
     line-height: 1;
     color: #eee !important;
 }
+.flex.flex-wrap.items-center {
+    background-color: #1f2937d1;
+    padding-right: 15px;
+}
 </style>
