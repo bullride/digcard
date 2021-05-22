@@ -24,7 +24,7 @@ export default {
 }
 html {
   font-family: 'Nunito', sans-serif;
-  background: #2d3748;
+  background: #adadad;
   font-weight: 400;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
