@@ -63,7 +63,7 @@ export default {
 .hu-color-picker {
   box-shadow: none;
   &.light {
-    background: #2d3748;
+    background: #adadad;
     .color-type {
       .name {
         background: #4a5568;
