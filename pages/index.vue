@@ -1,7 +1,7 @@
 <template>
   <div
     ref="container"
-    class="container relative bg-gray-900 mx-auto text-gray-100"
+    class="container relative bg-gray-bg mx-auto text-gray-100"
     style="max-width: 960px"
   >
     <Modal
@@ -13,7 +13,7 @@
     <transition name="drop">
       <div
         v-if="inView || showPreview"
-        class="fixed top-0 w-full z-30 bg-gray-900 justify-between items-center flex md:hidden"
+        class="fixed top-0 w-full z-30 bg-gray-bg justify-between items-center flex md:hidden"
       >
         <div
           class="logo w-16 m-4"
@@ -376,7 +376,7 @@
             <div id="browserFrame" class="overflow-hidden flex flex-col">
               <div
                 id="topBar"
-                class="topbar border-r-4 border-l-4 border-black bg-gray-900 z-10"
+                class="topbar border-r-4 border-l-4 border-black bg-gray-bg z-10"
               >
                 <div id="searchField" class="p-2 flex items-center">
                   <input
