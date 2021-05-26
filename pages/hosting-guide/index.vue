@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 mx-auto text-gray-100" style="max-width: 960px">
+  <div class="bg-gray-bg mx-auto text-gray-100" style="max-width: 960px">
     <div class="px-4">
       <div class="flex items-start justify-between pt-8">
         <NuxtLink to="/">
