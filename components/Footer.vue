@@ -103,4 +103,10 @@ p {
     background-color: #1f2937d1;
     padding-right: 15px;
 }
+.bg-gray-900 {
+    background-image: url(https://www.gumcars.co.za/demo/bgd.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
 </style>
