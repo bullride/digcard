@@ -70,7 +70,7 @@ h2.font-extrabold.text-2xl {
 }
 
 .px-4.mt-32 {
-    background-color: #ffffff;
+    background-color: #fff0;
 }
 
 button.p-3.flex-shrink-0.rounded-full.hover\:scale-125.focus\:scale-125.transform.transition-transform.duration-200.focus\:outline-none {
