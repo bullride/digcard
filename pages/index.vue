@@ -374,10 +374,6 @@
               LIVE PREVIEW
             </h2>
             <div id="browserFrame" class="overflow-hidden flex flex-col">
-              <div
-                id="topBar"
-                class="topbar border-r-4 border-l-4 border-black bg-gray-bg z-10"
-              >
                 <div id="searchField" class="p-2 flex items-center">
                   <input
                     type="text"
@@ -392,7 +388,6 @@
                     v-html="require(`~/assets/icons/ellipsis.svg?include`)"
                   ></div>
                 </div>
-              </div>
               <Preview
                 class="rounded-b-2xl"
                 ref="html"
