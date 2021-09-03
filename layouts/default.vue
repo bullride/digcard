@@ -76,7 +76,9 @@ html {
     left: calc(100% - 3rem);
   }
 }
-
+p.font-extrabold.leading-tight, p.mt-6.text-center.text-gray-400, p.mt-1.mb-8.text-center.text-xs.text-gray-400, p.font-extrabold.text-xl.mt-2.leading-tight {
+    color: #fff!important;
+}
 // Responsive
 @media (min-width: 640px) {
   .stepC {
