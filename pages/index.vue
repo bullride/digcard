@@ -14,6 +14,7 @@
       <div
         v-if="inView || showPreview"
         class="fixed top-0 w-full z-30 bg-gray-bg justify-between items-center flex md:hidden"
+        style="background-color: #000;"}
       >
         <div
           class="logo w-16 m-4"
@@ -51,7 +52,7 @@
     </transition>
 
 <div class="md:grid md:grid-cols-2">
-      <div class="px-4 pt-32" style="padding-top: 30px;">
+      <div class="px-4 pt-32" style="padding-top: 45px;">
         <div ref="create" id="step-1" class="pt-8">
           <h2 class="font-extrabold text-2xl">Image attachments</h2>
           <div class="stepC">
