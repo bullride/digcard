@@ -51,7 +51,7 @@
     </transition>
 
 <div class="md:grid md:grid-cols-2">
-      <div class="px-4 mt-32">
+      <div class="px-4 pt-32" style="padding-top: 30px;">
         <div ref="create" id="step-1" class="pt-8">
           <h2 class="font-extrabold text-2xl">Image attachments</h2>
           <div class="stepC">
