@@ -14,7 +14,7 @@
       <div
         v-if="inView || showPreview"
         class="fixed top-0 w-full z-30 bg-gray-bg justify-between items-center flex md:hidden"
-        style="background-color: #000;"}
+        style="background-color: #000;"
       >
         <div
           class="logo w-16 m-4"
