@@ -30,7 +30,7 @@
         }"
         target="_blank"
         :href="product.link"
-        ><p class="action">{{ product.label }}</p></a
+        ><div class="action">{{ product.label }}</div></a
       >
     </div>
   </div>
